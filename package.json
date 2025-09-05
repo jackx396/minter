@@ -39,5 +39,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "overrides": {
+    "typescript": "^4.9.5"
+  }
 }
