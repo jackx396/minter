@@ -61,3 +61,5 @@ npm start
 ## 📄 License
 
 Private use only - Authorized wallets only.
+
+<!-- Deployment trigger -->
