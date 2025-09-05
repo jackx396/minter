@@ -1,0 +1,147 @@
+/* Main App Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0f0f23;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: #1a1a2e;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #9945ff;
+}
+
+.form-help {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Button Styles */
+.mint-button {
+  background: linear-gradient(135deg, #9945ff, #14f195);
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.mint-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.mint-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(153, 69, 255, 0.3);
+}
+
+/* Error Messages */
+.error-message {
+  background: #ff4444;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+/* Fee Display */
+.fee-display {
+  background: #1a1a2e;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.fee-info {
+  font-size: 14px;
+}
+
+.total-fee {
+  margin-top: 8px;
+  color: #14f195;
+}
+
+/* Output Section */
+.output-section {
+  margin-top: 40px;
+}
+
+.result-section {
+  background: #1a1a2e;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.result-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #9945ff;
+}
+
+.result-content {
+  font-family: monospace;
+  background: #0f0f23;
+  padding: 12px;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .form-input {
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+  
+  .mint-button {
+    padding: 16px;
+    font-size: 16px;
+  }
+}
