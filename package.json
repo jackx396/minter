@@ -12,6 +12,9 @@
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "webpack": "^5.88.0",
+    "util": "^0.12.5",
+    "url": "^0.11.3",
+    "assert": "^2.1.0",
     "@solana/spl-token": "^0.4.8",
     "@solana/wallet-adapter-base": "^0.9.22",
     "@solana/wallet-adapter-react": "^0.15.32",
